@@ -92,4 +92,4 @@ Output ([playground](https://go.dev/play/p/JeSyFDwHGqs)):
 
 It's the same output. This is roughly what happens under the hood when ranging over a function.
 
-[Next: How do we implement them?](./06.md)
+[Next: Notes](./05_02_notes.md)
