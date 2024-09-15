@@ -45,6 +45,8 @@ func main() {
 	}
 }
 
+// checkAvailability checks whether a URL is reachable via GET request. Returns an error
+// if it is not or if the URL is invalid to begin with.
 func checkAvailability(client *http.Client) func(url string) error {
 	return func(url string) error {
 		response, err := client.Get(url)
