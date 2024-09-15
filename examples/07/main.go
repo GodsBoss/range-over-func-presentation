@@ -14,6 +14,9 @@ import (
 	"github.com/GodsBoss/g/seq/throttle"
 )
 
+// main does not show a good practice or recommended way of how to use iterators,
+// but serves as an example how iterator utilities from different sources work
+// together thanks to the standard interface that is available since Go 1.23.
 func main() {
 	rawURLs := []string{
 		"https://foo.example.com/",
