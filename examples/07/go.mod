@@ -1,4 +1,4 @@
-module github.com/GodsBoss/range-over-func-presentation/examples/urls
+module github.com/GodsBoss/range-over-func-presentation/examples/07
 
 go 1.23
 
