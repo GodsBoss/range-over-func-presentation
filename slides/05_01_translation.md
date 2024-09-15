@@ -76,7 +76,7 @@ func naturalNumbers(yield func(n int64) bool) {
 }
 ```
 
-Output ([playground](https://go.dev/play/p/JeSyFDwHGqs)):
+Output ([example](../examples/05/main.go)):
 ```
 1
 3
